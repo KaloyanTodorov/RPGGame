@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SuperRPGGameApp.Interfaces
+﻿namespace SuperRPGGameApp.Interfaces
 {
-    interface IPlayer
+    interface IPlayer : ICharacter, IMoveable, ICollect, IHeal, IExperience
     {
+         
     }
 }

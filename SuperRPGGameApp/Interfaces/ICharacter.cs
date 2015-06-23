@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SuperRPGGameApp.Interfaces
+﻿namespace SuperRPGGameApp.Interfaces
 {
-    interface ICharacter
+    // Extend-ване на интерфейс
+
+    public interface ICharacter : IAttack, IDestroyable
     {
+        string Name { get; }
+
+        Position Position { get; }
     }
 }
