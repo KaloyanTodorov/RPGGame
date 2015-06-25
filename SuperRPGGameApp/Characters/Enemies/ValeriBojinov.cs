@@ -2,8 +2,11 @@
 {
     public class ValeriBojinov : Character
     {
-        public ValeriBojinov() 
-            : base(200, 50)
+        private const int BojinkataHealth = 200;
+        private const int BojinkataDamage = 50;
+        
+        public ValeriBojinov()
+            : base(BojinkataHealth, BojinkataDamage)
         {
         }
     }

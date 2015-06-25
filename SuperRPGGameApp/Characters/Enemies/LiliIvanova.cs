@@ -2,8 +2,11 @@
 {
     public class LiliIvanova : Character
     {
-        public LiliIvanova() 
-            : base(500, 50)
+        private const int LiliHealth = 500;
+        private const int LiliDamage = 50;
+        
+        public LiliIvanova()
+            : base(LiliHealth, LiliDamage)
         {
         }
     }
