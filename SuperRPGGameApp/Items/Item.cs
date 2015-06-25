@@ -1,6 +1,6 @@
 ﻿namespace SuperRPGGameApp.Items
 {
-    public abstract class Item
+    public abstract class Item : GameObject
     {
     }
 }
