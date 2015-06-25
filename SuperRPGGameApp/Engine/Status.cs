@@ -7,21 +7,28 @@ using SuperRPGGameApp.Characters;
 
 namespace SuperRPGGameApp.Engine
 {
-   public static class Map
+    public static class Status
     {
-       
+        static Player newP = new Player(PlayerRace.Gaidar);
         private const int numRows = 20;
         private const string stars = "************************************************************";
         private const string starsIn = "*                                                          *";
-        public static void PrintMap()
+        public static void PrintStatus()
         {
-            Console.WriteLine(stars);
-            for (int i = 0; i < numRows; i++)
+          
+            for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine(starsIn);
+                if (i == 2)
+                {
+                    Console.WriteLine("*\t"+newP);
+                }
+                else
+                {
+                    Console.WriteLine(starsIn);
+                }
             }
             Console.WriteLine(stars);
-          
+
         }
     }
 }

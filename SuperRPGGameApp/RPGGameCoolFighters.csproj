@@ -47,10 +47,12 @@
     <Compile Include="Characters\Enemies\MitioPishtova.cs" />
     <Compile Include="Characters\Enemies\ProfesorVuchkov.cs" />
     <Compile Include="Characters\Enemies\ValeriBojinov.cs" />
-    <Compile Include="Engine\Engine.cs" />
+    <Compile Include="Characters\Player.cs" />
+    <Compile Include="Characters\PlayerRace.cs" />
     <Compile Include="Engine\GameEngine.cs" />
     <Compile Include="Engine\Map.cs" />
     <Compile Include="Engine\Move.cs" />
+    <Compile Include="Engine\Status.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\ICollect.cs" />

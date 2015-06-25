@@ -1,6 +1,6 @@
-C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe.config
-C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe
-C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.pdb
-C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\obj\Debug\RPGGameCoolFighters.csprojResolveAssemblyReference.cache
-C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.exe
-C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.pdb
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe.config
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.pdb
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\obj\Debug\RPGGameCoolFighters.csprojResolveAssemblyReference.cache
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.exe
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.pdb
