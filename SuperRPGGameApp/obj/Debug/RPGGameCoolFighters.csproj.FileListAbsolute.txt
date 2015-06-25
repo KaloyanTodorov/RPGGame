@@ -1,17 +1,6 @@
-D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe.config
-<<<<<<< HEAD
-C:\Users\Mr. Nameless\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe.config
 C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe.config
-=======
-D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\obj\Debug\RPGGameCoolFighters.csprojResolveAssemblyReference.cache
-D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe
-D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.pdb
-D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.exe
-D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.pdb
-C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe.config
-C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.exe
-C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.pdb
-C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\obj\Debug\RPGGameCoolFighters.csprojResolveAssemblyReference.cache
-C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe
-C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.pdb
->>>>>>> 0343cf802775067fb42eccfb0bb1c53ebe3bec0d
+C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe
+C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.pdb
+C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\obj\Debug\RPGGameCoolFighters.csprojResolveAssemblyReference.cache
+C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.exe
+C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.pdb
