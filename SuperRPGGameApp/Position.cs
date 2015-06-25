@@ -2,7 +2,7 @@
 {
     public struct Position
     {
-        public Position(int x, int Y)
+        public Position(int x, int y)
             : this()
         {
             this.X = x;

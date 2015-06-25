@@ -1,1 +1,3 @@
 D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe.config
+C:\Users\Mr. Nameless\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe.config
+C:\Users\Asen Santev\Dropbox\Programming\Level 1 - Fundamentals\02.OOP\Teamwork\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe.config

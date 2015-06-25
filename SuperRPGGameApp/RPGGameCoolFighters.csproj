@@ -42,6 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Characters\Character.cs" />
+    <Compile Include="Characters\Enemies\Azis.cs" />
+    <Compile Include="Characters\Enemies\LiliIvanova.cs" />
+    <Compile Include="Characters\Enemies\MitioPishtova.cs" />
+    <Compile Include="Characters\Enemies\ProfesorVuchkov.cs" />
+    <Compile Include="Characters\Enemies\ValeriBojinov.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\ICollect.cs" />
