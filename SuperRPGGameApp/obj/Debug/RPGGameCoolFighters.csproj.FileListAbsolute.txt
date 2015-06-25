@@ -4,3 +4,9 @@ D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\bin\Debug\SuperR
 D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.pdb
 D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.exe
 D:\Visual Studio Homework\Cool Stuff\Simple-RPG\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.pdb
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe.config
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.exe
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\obj\Debug\SuperRPGGameApp.pdb
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\obj\Debug\RPGGameCoolFighters.csprojResolveAssemblyReference.cache
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.exe
+C:\Users\Koki\Desktop\RPGGame\SuperRPGGameApp\bin\Debug\SuperRPGGameApp.pdb
