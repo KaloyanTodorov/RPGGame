@@ -11,7 +11,7 @@ namespace SuperRPGGameApp.Engine
     {
         public static void Run()
         {
-            Player newP = new Player(PlayerRace.Gaidar);
+            Player newP = new Player(PlayerRace.Spinderman);
             Move.ExecuteCommand(new ConsoleKeyInfo());
           
         }

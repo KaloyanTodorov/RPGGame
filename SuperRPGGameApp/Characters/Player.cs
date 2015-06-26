@@ -22,7 +22,7 @@ namespace SuperRPGGameApp.Characters
             public override string ToString()
             {
                 return string.Format(
-                    "Race: {0}, Damage: {1:D4}, Health: {2:D4}",
+                    "Race: {0}, Damage: {1}, Health: {2}",
                    
                     this.Race,
                     this.Damage,

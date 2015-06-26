@@ -9,18 +9,21 @@ namespace SuperRPGGameApp.Engine
 {
     public static class Status
     {
-        static Player newP = new Player(PlayerRace.Gaidar);
+        static Player newP = new Player(PlayerRace.Spinderman);
         private const int numRows = 20;
-        private const string stars = "************************************************************";
+        private static string stars = new string('*',60);
         private const string starsIn = "*                                                          *";
         public static void PrintStatus()
         {
-          
+            int count = newP.ToString().Length;
+
+            string input = new string(' ',(60-8-count-1));
+            input += "*";
             for (int i = 0; i < 5; i++)
             {
                 if (i == 2)
                 {
-                    Console.WriteLine("*\t"+newP);
+                    Console.WriteLine("*\t"+newP+input);
                 }
                 else
                 {
