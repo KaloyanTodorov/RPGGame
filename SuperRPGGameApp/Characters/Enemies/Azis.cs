@@ -1,16 +1,13 @@
 ﻿namespace SuperRPGGameApp.Characters.Enemies
 {
-    class Azis : Character
+    public class Azis : Enemy
     {
         private const int AzisHealth = 100;
         private const int AzisDamage = 100;
         
         public Azis(Position position)
-            : base(AzisHealth, AzisDamage)
+            : base(AzisHealth, AzisDamage, position)
         {
-            this.Position = position;
         }
-
-        public Position Position { get; set; }
     }
 }

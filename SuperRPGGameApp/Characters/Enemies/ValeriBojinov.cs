@@ -1,12 +1,12 @@
 ﻿namespace SuperRPGGameApp.Characters.Enemies
 {
-    public class ValeriBojinov : Character
+    public class ValeriBojinov : Enemy
     {
         private const int BojinkataHealth = 200;
         private const int BojinkataDamage = 50;
         
-        public ValeriBojinov()
-            : base(BojinkataHealth, BojinkataDamage)
+        public ValeriBojinov(Position position)
+            : base(BojinkataHealth, BojinkataDamage, position)
         {
         }
     }

@@ -1,12 +1,12 @@
 ﻿namespace SuperRPGGameApp.Characters.Enemies
 {
-    public class ProfesorVuchkov : Character
+    public class ProfesorVuchkov : Enemy
     {
         private const int VuchkovHealth = 100;
         private const int VuchkovDamage = 150;
         
-        public ProfesorVuchkov()
-            : base(VuchkovHealth, VuchkovDamage)
+        public ProfesorVuchkov(Position position)
+            : base(VuchkovHealth, VuchkovDamage, position)
         {
         }
     }

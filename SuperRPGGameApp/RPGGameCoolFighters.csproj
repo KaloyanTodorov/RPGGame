@@ -47,8 +47,10 @@
     <Compile Include="Characters\Enemies\MitioPishtova.cs" />
     <Compile Include="Characters\Enemies\ProfesorVuchkov.cs" />
     <Compile Include="Characters\Enemies\ValeriBojinov.cs" />
+    <Compile Include="Characters\Enemy.cs" />
     <Compile Include="Characters\Player.cs" />
     <Compile Include="Characters\PlayerRace.cs" />
+    <Compile Include="EnemyFactory.cs" />
     <Compile Include="Engine\GameEngine.cs" />
     <Compile Include="Engine\Map.cs" />
     <Compile Include="Engine\Move.cs" />
@@ -59,7 +61,14 @@
     <Compile Include="Interfaces\IDestroyable.cs" />
     <Compile Include="Interfaces\IHeal.cs" />
     <Compile Include="Interfaces\IMoveable.cs" />
+    <Compile Include="ItemFactory.cs" />
     <Compile Include="Items\Item.cs" />
+    <Compile Include="Items\Mastika.cs" />
+    <Compile Include="Items\Musaka.cs" />
+    <Compile Include="Items\Shnorhel.cs" />
+    <Compile Include="Items\Turshia.cs" />
+    <Compile Include="Items\Vibrator.cs" />
+    <Compile Include="Items\Vydica.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="RPGGameApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
