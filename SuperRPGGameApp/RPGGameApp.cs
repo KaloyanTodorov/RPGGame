@@ -1,5 +1,4 @@
-﻿using System;
-using SuperRPGGameApp.Engine;
+﻿using SuperRPGGameApp.Engine;
 
 namespace RPGGameCoolFighters
 {
@@ -7,9 +6,7 @@ namespace RPGGameCoolFighters
     {
         public static void Main()
         {
-           
             GameEngine.Run();
-
         }
     }
 }

@@ -4,7 +4,7 @@ using SuperRPGGameApp.Characters.Enemies;
 
 namespace SuperRPGGameApp
 {
-    class EnemyFactory
+    public class EnemyFactory
     {
         private readonly Random randomGenerator;
 
@@ -36,6 +36,7 @@ namespace SuperRPGGameApp
                     var bojinka = new ValeriBojinov(new Position(x, y));
                     break;
             }
+            Console.Write("E");
         }
     }
 }

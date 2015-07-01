@@ -1,4 +1,4 @@
-﻿using System;
+﻿using SuperRPGGameApp.Exception;
 
 namespace SuperRPGGameApp
 {
@@ -20,7 +20,7 @@ namespace SuperRPGGameApp
             {
                 if (value<0)
                 {
-                    throw new ArgumentOutOfRangeException("The health cannot be negative!");
+                    throw new RpgExceptions(Messages.InvalidHealth);
                 }
                 this.health = value;
             }
@@ -33,7 +33,7 @@ namespace SuperRPGGameApp
             {
                 if (value < 0)
                 {
-                    throw new ArgumentOutOfRangeException("The damage cannot be negative!");
+                    throw new RpgExceptions(Messages.InvalidDamage);
                 }
                 this.damage = value;
             }

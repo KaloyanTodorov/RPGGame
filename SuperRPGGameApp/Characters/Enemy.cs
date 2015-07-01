@@ -1,9 +1,9 @@
-﻿namespace SuperRPGGameApp.Characters
+﻿using SuperRPGGameApp.Interfaces;
+
+namespace SuperRPGGameApp.Characters
 {
-    public class Enemy : Character
+    public class Enemy : Character, IAttack
     {
-        private Position position;
-        
         public Enemy(int health, int damage, Position position) 
             : base(health, damage)
         {
@@ -11,5 +11,9 @@
         }
 
         public Position Position { get; set; } //set validation
+        
+        public void Attack(Character enemy)
+        {
+        }
     }
 }

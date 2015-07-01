@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SuperRPGGameApp.Interfaces;
+using SuperRPGGameApp.Items;
 
 namespace SuperRPGGameApp.Characters
 {
    
-        public class Player : Character
+        public class Player : Character, ICollect
         {
            public Player(PlayerRace race)
                 : base(0, 0)
@@ -27,7 +25,10 @@ namespace SuperRPGGameApp.Characters
                     this.Race,
                     this.Damage,
                     this.Health);
+            }
 
+            public void UseItem(Item item)
+            {
             }
 
             private void SetPlayerStats()

@@ -1,6 +1,6 @@
 ﻿namespace SuperRPGGameApp.Items
 {
-    class Shnorhel : Item
+    public class Shnorhel : Item
     {
         private const int ShnorhelHealth = 0;
         private const int ShnorhelDamage = 40;

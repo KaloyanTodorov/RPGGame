@@ -1,6 +1,6 @@
 ﻿namespace SuperRPGGameApp.Items
 {
-    class Turshia : Item
+    public class Turshia : Item
     {
         private const int TurshiaHealth = 50;
         private const int TurshiaDamage = 0;

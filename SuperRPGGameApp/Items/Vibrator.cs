@@ -1,6 +1,6 @@
 ﻿namespace SuperRPGGameApp.Items
 {
-    class Vibrator : Item
+    public class Vibrator : Item
     {
         private const int VibratorHealth = 0;
         private const int VibratorDamage = 50;

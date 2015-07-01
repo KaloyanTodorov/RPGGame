@@ -3,7 +3,7 @@ using SuperRPGGameApp.Items;
 
 namespace SuperRPGGameApp
 {
-    class ItemFactory
+    public class ItemFactory
     {
         private readonly Random randomGenerator;
 
