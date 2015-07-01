@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SuperRPGGameApp.Characters;
 
 namespace SuperRPGGameApp.Engine
@@ -16,6 +12,7 @@ namespace SuperRPGGameApp.Engine
         //{
         //    int count = newP.ToString().Length;
 
+<<<<<<< HEAD
         //    string input = new string(' ', (60 - 8 - count - 1));
         //    input += "*";
         //    for (int i = 0; i < 5; i++)
@@ -32,5 +29,22 @@ namespace SuperRPGGameApp.Engine
         //    Console.WriteLine(stars);
 
         //}
+=======
+            string input = new string(' ',(60-8-count-1));
+            input += "*";
+            for (int i = 0; i < 5; i++)
+            {
+                if (i == 2)
+                {
+                    Console.WriteLine("*\t"+newP+input);
+                }
+                else
+                {
+                    Console.WriteLine(starsIn);
+                }
+            }
+            Console.WriteLine(stars);
+        }
+>>>>>>> e361981c8ad034c9971d16b7a3ec22b99d67c5a3
     }
 }

@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SuperRPGGameApp.Interfaces;
+using SuperRPGGameApp.Items;
 
 namespace SuperRPGGameApp.Characters
 {
+<<<<<<< HEAD
    using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -18,6 +17,10 @@ namespace SuperRPGGameApp.Characters
  
         public Player(Position position, char objectSymbol, string name, PlayerRace race)
             : base(position, objectSymbol, name, 1, 1)
+=======
+   
+        public class Player : Character, ICollect
+>>>>>>> e361981c8ad034c9971d16b7a3ec22b99d67c5a3
         {
             this.Race = race;
             this.SetPlayerStats();
@@ -25,6 +28,7 @@ namespace SuperRPGGameApp.Characters
 
         public PlayerRace Race { get; private set; }
 
+<<<<<<< HEAD
    
        public override string ToString()
         {
@@ -36,6 +40,22 @@ namespace SuperRPGGameApp.Characters
                 this.Health
                 );
         }
+=======
+          
+            public override string ToString()
+            {
+                return string.Format(
+                    "Race: {0}, Damage: {1}, Health: {2}",
+                   
+                    this.Race,
+                    this.Damage,
+                    this.Health);
+            }
+
+            public void UseItem(Item item)
+            {
+            }
+>>>>>>> e361981c8ad034c9971d16b7a3ec22b99d67c5a3
 
        
     

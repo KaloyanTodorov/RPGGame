@@ -1,10 +1,13 @@
 ﻿using System;
+<<<<<<< HEAD
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using SuperRpgGame.Attributes;
+=======
+>>>>>>> e361981c8ad034c9971d16b7a3ec22b99d67c5a3
 using SuperRPGGameApp.Characters;
 using SuperRPGGameApp.Interfaces;
 using SuperRPGGameApp.Items;
@@ -109,11 +112,16 @@ namespace SuperRPGGameApp.Engine
         }
         private void PopulateEnemies()
         {
+<<<<<<< HEAD
             for (int i = 0; i < 10; i++)
             {
                 Enemy enemy = this.CreateEnemy();
                 this.characters.Add(enemy);
             }
+=======
+            Player newP = new Player(PlayerRace.Spinderman);
+            Move.ExecuteCommand(new ConsoleKeyInfo());
+>>>>>>> e361981c8ad034c9971d16b7a3ec22b99d67c5a3
         }
         private void PopulateItems()
         {

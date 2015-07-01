@@ -1,4 +1,4 @@
-﻿using System;
+﻿using SuperRPGGameApp.Exception;
 
 namespace SuperRPGGameApp
 {
@@ -35,7 +35,11 @@ namespace SuperRPGGameApp
                     || value.X >= 59
                     || value.Y >= 30)
                 {
+<<<<<<< HEAD
                     throw new ArgumentException("Specified coordinates are outside map.");
+=======
+                    throw new RpgExceptions(Messages.InvalidHealth);
+>>>>>>> e361981c8ad034c9971d16b7a3ec22b99d67c5a3
                 }
 
                 this.position = value;
@@ -50,9 +54,13 @@ namespace SuperRPGGameApp
             {
                 if (!char.IsUpper(value))
                 {
+<<<<<<< HEAD
                     throw new ArgumentOutOfRangeException(
                         "objectSymbol",
                         "Object symbol must be an upper-case letter.");
+=======
+                    throw new RpgExceptions(Messages.InvalidDamage);
+>>>>>>> e361981c8ad034c9971d16b7a3ec22b99d67c5a3
                 }
 
                 this.objectSymbol = value;

@@ -1,6 +1,6 @@
 ﻿namespace SuperRPGGameApp.Items
 {
-    class Mastika : Item
+    public class Mastika : Item
     {
         private const int MastikaHealth = 100;
         private const int MastikaDamage = 0;
