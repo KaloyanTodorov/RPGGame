@@ -1,10 +1,15 @@
 ﻿namespace SuperRPGGameApp.Items
 {
-    public abstract class Item : GameObject
-    {
-        protected Item(int health, int damage, Position position) 
-            : base(health, damage)
+   
+        public abstract class Item : GameObject
         {
+            protected Item(Position position, char itemSymbol)
+                : base(position, itemSymbol)
+            {
+                this.ItemState = ItemState.Available;
+            }
+
+            public ItemState ItemState { get; set; }
         }
-    }
+    
 }

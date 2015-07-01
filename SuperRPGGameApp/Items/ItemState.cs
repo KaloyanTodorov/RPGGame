@@ -1,8 +1,9 @@
-
-namespace SuperRPGGameApp.Items
+﻿namespace SuperRPGGameApp.Items
 {
-    class ItemState
+    public enum ItemState
     {
-
+        Available,
+        Collected
     }
 }
+

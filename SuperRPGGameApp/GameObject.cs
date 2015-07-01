@@ -4,38 +4,58 @@ namespace SuperRPGGameApp
 {
     public abstract class GameObject
     {
+        private Position position;
+        private char objectSymbol;
         private int health;
         private int damage;
 
-        protected GameObject(int health, int damage)
+        protected GameObject(Position position, char objectSymbol)
         {
-            this.Health = health;
-            this.Damage = damage;
+            this.Position = position;
+            this.ObjectSymbol = objectSymbol;
         }
 
-        public int Health
+        public GameObject(int health, int damage)
         {
-            get { return this.health; }
+            // TODO: Complete member initialization
+            this.health = health;
+            this.damage = damage;
+        }
+
+
+        public Position Position
+        {
+            get { return this.position; }
+
             set
             {
-                if (value<0)
+                
+                if (value.X < 0
+                    || value.Y < 0
+                    || value.X >= 59
+                    || value.Y >= 30)
                 {
-                    throw new ArgumentOutOfRangeException("The health cannot be negative!");
+                    throw new ArgumentException("Specified coordinates are outside map.");
                 }
-                this.health = value;
+
+                this.position = value;
             }
         }
 
-        public int Damage
+        public char ObjectSymbol
         {
-            get { return this.damage; }
+            get { return this.objectSymbol; }
+
             set
             {
-                if (value < 0)
+                if (!char.IsUpper(value))
                 {
-                    throw new ArgumentOutOfRangeException("The damage cannot be negative!");
+                    throw new ArgumentOutOfRangeException(
+                        "objectSymbol",
+                        "Object symbol must be an upper-case letter.");
                 }
-                this.damage = value;
+
+                this.objectSymbol = value;
             }
         }
     }

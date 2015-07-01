@@ -6,7 +6,7 @@
         private const int MusakaDamage = 0;
         
         public Musaka(Position position)
-            : base(MusakaHealth, MusakaDamage, position)
+            : base( position,'M')
         {
         }
     }

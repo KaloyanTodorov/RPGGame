@@ -1,7 +1,11 @@
-﻿namespace SuperRPGGameApp.Interfaces
+﻿using SuperRPGGameApp.Characters;
+
+namespace SuperRPGGameApp.Interfaces
 {
-    interface IPlayer : ICharacter, IMoveable, ICollect, IHeal, IExperience
+   
+    public interface IPlayer : ICharacter
     {
-         
-    }
+        PlayerRace Race { get; }
+    } 
+    
 }

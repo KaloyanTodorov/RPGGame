@@ -6,7 +6,7 @@
         private const int VydicaDamage = 20;
         
         public Vydica(Position position)
-            : base(VydicaHealth, VydicaDamage, position)
+            : base(position,'V')
         {
         }
     }

@@ -6,31 +6,40 @@ using System.Threading.Tasks;
 
 namespace SuperRPGGameApp.Characters
 {
-   
-        public class Player : Character
+   using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Interfaces;
+    using Items;
+
+    public class Player : Character
+    {
+      
+ 
+        public Player(Position position, char objectSymbol, string name, PlayerRace race)
+            : base(position, objectSymbol, name, 1, 1)
         {
-           public Player(PlayerRace race)
-                : base(0, 0)
-            {
-              this.Race = race;
-              this.SetPlayerStats();
-            }
+            this.Race = race;
+            this.SetPlayerStats();
+        }
 
-            public PlayerRace Race { get; private set; }
+        public PlayerRace Race { get; private set; }
 
-          
-            public override string ToString()
-            {
-                return string.Format(
-                    "Race: {0}, Damage: {1}, Health: {2}",
-                   
-                    this.Race,
-                    this.Damage,
-                    this.Health);
+   
+       public override string ToString()
+        {
+            return string.Format(
+                "Player {0} ({1}): Damage ({2}), Health ({3})",
+                this.Name,
+                this.Race,
+                this.Damage,
+                this.Health
+                );
+        }
 
-            }
-
-            private void SetPlayerStats()
+       
+    
+        private void SetPlayerStats()
             {
                 switch (this.Race)
                 {

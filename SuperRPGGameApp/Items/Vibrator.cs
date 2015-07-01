@@ -6,7 +6,7 @@
         private const int VibratorDamage = 50;
         
         public Vibrator(Position position)
-            : base(VibratorHealth, VibratorDamage, position)
+            : base(position,'G')
         {
         }
     }

@@ -6,7 +6,7 @@
         private const int TurshiaDamage = 0;
         
         public Turshia(Position position)
-            : base(TurshiaHealth, TurshiaDamage, position)
+            : base(position,'O')
         {
         }
     }

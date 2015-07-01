@@ -14,8 +14,7 @@ namespace SuperRPGGameApp.Engine
         public static void ExecuteCommand(ConsoleKeyInfo keyInfo)
         {
            
-            Map.PrintMap();
-            Status.PrintStatus();
+            
             Console.CursorVisible = false;
             InitGame();
 

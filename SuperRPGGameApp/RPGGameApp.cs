@@ -7,8 +7,9 @@ namespace RPGGameCoolFighters
     {
         public static void Main()
         {
-           
-            GameEngine.Run();
+
+            GameEngine game = new GameEngine();
+            game.Run();
 
         }
     }

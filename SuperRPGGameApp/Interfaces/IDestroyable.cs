@@ -1,7 +1,8 @@
 ﻿namespace SuperRPGGameApp.Interfaces
 {
+
     public interface IDestroyable
     {
-        int Health { get;  }
+        int Health { get; set; }
     }
 }

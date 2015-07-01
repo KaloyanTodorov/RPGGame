@@ -6,7 +6,7 @@
         private const int ShnorhelDamage = 40;
         
         public Shnorhel(Position position)
-            : base(ShnorhelHealth, ShnorhelDamage, position)
+            : base( position,'M')
         {
         }
     }

@@ -6,7 +6,7 @@
         private const int MastikaDamage = 0;
         
         public Mastika(Position position)
-            : base(MastikaHealth, MastikaDamage, position)
+            : base( position,'K')
         {
         }
     }

@@ -2,8 +2,14 @@
 {
     using Characters;
 
+
+
     public interface IAttack
     {
-        void Attack(Character enemy);
+        int Damage { get; set; }
+
+        void Attack(ICharacter enemy);
     }
+
 }
+
